@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+li{ list-style:none;}
+/*头部开始*/
+body {
+    background-color: #0EA8D8;
+}
+body {
+    font-family: "微软雅黑","文泉驿正黑","黑体";
+    font-size: 14px;
+}
+
+header{
+	float:left;
+	background: #0488B8 no-repeat right;
+	height:1000px;
+	border:4px solid #FFF;
+	}
+ul{
+	background-color:#0488B8;
+	line-height:45px;
+	font-size:23px;
+	color:#FFF;
+	padding:10px 38px;
+	margin-bottom:40px;
+    margin:10px 10px 10px 10px;
+}
+header li{
+	line-height:45px;
+	border-bottom:#fff dotted 2px;
+	padding-left:42px;
+	background: url(../images/li-bg.png) no-repeat 20px;}
+.rollMain{
+	width:480px;
+	float:left;
+	margin-left:10px;
+	background:#E8E8E8;
+	padding:4px;
+	border:#999 solid 1px;
+	position:relative;
+	}
+.roll{
+	width:473px;
+	height:296px;
+	position:relative;
+	overflow:hidden;
+	}
+.roll img{
+	width:100%;
+	height:269px;
+	border:0;
+	}
+.rTit{
+	width:80%;
+	height:30px;
+	background:#000;
+	color:#FFF;
+	font-size:12px;
+	line-height:30px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+	overflow:hidden;
+	}
+.rTit li{
+	padding-left:10px;
+	}
+.rNum{
+	width:96px;
+	position:absolute;
+	right:0;
+	bottom:5px;
+	background:#00112C;
+	}
+.rNum li{
+	width:20px;
+	height:20px;
+	color:#FFF;
+	background:#6C6;
+	text-align:center;
+	line-height:20px;
+	float:left;
+	margin:0 2px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	display:inline;
+	cursor:pointer;
+	}
+.rNum .current{background:#F60;}

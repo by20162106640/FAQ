@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+/*返回界面样式开始*/
+h5{
+	background-color:#095;
+	line-height:30px;
+	font-size:23px;
+	color:#FFF;
+	padding:0px 40px;
+}
+aside ul{ margin-bottom:40px;
+          margin:10px 10px 10px 10px; }
+aside li{
+	line-height:45px;
+	border-bottom:#fff dotted 2px;
+	padding-left:42px;
+	background: url(../images/li-bg.png) no-repeat 20px;}
+aside li a{}
+aside li a:hover{}
+main button{
+	width:200px;
+	height:40px;
+	background:#0066FF;
+	border:0;
+	border-radius:20px;
+	color:#fff;
+	cursor:pointer;
+	margin:500px 0 0 338px;
+	}
+/*返回界面样式结束*/
+/*添加问题样式开始*/
+h6{
+	background-color:#095;
+	line-height:30px;
+	font-size:23px;
+	color:#FFF;
+	padding:0px 40px;
+}
+aside ul{ margin-bottom:40px;
+          margin:10px 10px 10px 10px; }
+aside li{
+	line-height:45px;
+	border-bottom:#fff dotted 2px;
+	padding-left:42px;
+	background: url(../images/li-bg.png) no-repeat 20px;}
+aside li a{}
+aside li a:hover{}
+.tj{ 
+	width:800px;
+	float:left;
+	}
+.board{ 
+	width:500px;
+	height:100px;
+	float:left;
+	}
+.area{
+	margin:10px 0;}
+.area label{
+	width:150px;
+	display:inline-block;
+	text-align:left;
+	}
+.area input{
+	width:800px;
+	height:30px;
+	margin:10px 0 0 2px;
+	}
+.area textarea{
+	width:800px;
+	height:100px;
+	resize:none;
+	vertical-align:top;
+	margin:10px 0 0 2px;
+	}
+.board button{
+	width:200px;
+	height:40px;
+	background:#0066FF;
+	border:0;
+	border-radius:20px;
+	color:#fff;
+	cursor:pointer;
+	margin:100px 0 0 338px;
+	}
+/*添加问题样式结束*/
+/*查阅问题样式开始*/
+h6{
+	background-color:#095;
+	line-height:30px;
+	font-size:23px;
+	color:#FFF;
+	padding:0px 40px;
+}
+aside ul{ margin-bottom:40px;
+          margin:10px 10px 10px 10px; }
+aside li{
+	line-height:45px;
+	border-bottom:#fff dotted 2px;
+	padding-left:42px;
+	background: url(../images/li-bg.png) no-repeat 20px;}
+aside li a{}
+aside li a:hover{}
+.cy{ 
+	width:800px;
+	float:left;
+	}
+.message{ 
+	width:800px;
+	height:400px;
+	float:left;
+	}
+.data{
+	margin:28px 0;}
+.data label{
+	width:125px;
+	display:inline-block;
+	text-align:left;
+	}
+.data input{
+	width:800px;
+	height:46px;
+	}
+.data textarea{
+	width:1000px;
+	height:200px;
+	resize:none;
+	vertical-align:top;
+	margin:10px 0 0 2px;
+	}
+.message button{
+	width:200px;
+	height:40px;
+	background:#0066FF;
+	border:0;
+	border-radius:20px;
+	color:#fff;
+	cursor:pointer;
+	margin:214px 0 0 338px;
+	}
+/*查阅问题样式结束*/
+/*待解决问题样式开始*/
+h6{
+	background-color:#095;
+	line-height:30px;
+	font-size:23px;
+	color:#FFF;
+	padding:0px 40px;
+}
+aside ul{ margin-bottom:40px;
+          margin:10px 10px 10px 10px; }
+aside li{
+	line-height:45px;
+	border-bottom:#fff dotted 2px;
+	padding-left:42px;
+	background: url(../images/li-bg.png) no-repeat 20px;}
+aside li a{}
+aside li a:hover{}
+.djj{ 
+	width:800px;
+	float:left;
+	}
+div{ 
+	width:800px;
+	height:60px;
+	float:left;
+	margin:20px 10px;
+	
+	}
+label{
+	width:150px;
+	font-size:24px;
+	display:inline-block;
+	text-align:left;
+	}
+textarea{
+	width:800px;
+	height:250px;
+	resize:none;
+	vertical-align:top;
+	margin:20px 30px;
+	}
+form button{
+	width:200px;
+	height:40px;
+	background:#0066FF;
+	border:0;
+	border-radius:20px;
+	color:#fff;
+	cursor:pointer;
+	margin:80px 0 0 280px;
+	}
+/*待解决问题样式结束*/

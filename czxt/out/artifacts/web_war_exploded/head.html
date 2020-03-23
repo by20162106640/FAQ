@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link rel="stylesheet" type="text/css" href="css/dl.css">
+
+</head>
+<h1>《操作系统》课程FAQ系统</h1>
+<body>
+    <section id="login_wrap">
+        <div class="fullscreen-bg" style="background: url(images/a1.jpg);height: 532px;">
+        	
+        </div>
+        <div class="login-box">
+        	<div class="title">
+        		<span>欢 迎 登 录 账 户</span>
+        	</div>
+        	<div class="login_inner">
+				
+				<!--登录错误提示消息-->
+        		<div id="errorMsg" class="alert alert-danger" ></div>
+				<form id="loginForm" action="" method="post" accept-charset="utf-8" onsubmit="return false">
+        			<input type="hidden" name="action" value="login"/>
+        			<input name="username" type="text" placeholder="请输入用户名" autocomplete="off">
+        			<input name="password" type="password" placeholder="请输入密码" autocomplete="off">
+			<div class="submit_btn">
+        			 <input type="submit" onclick="login();" value="用户登录" id="loginBtn">
+                     <input type="submit" onclick="login();" value="教师登录" id="loginBtn">
+        			</div>        			       		
+        		</form>
+        		<div class="reg">没有账户？<a href="zc.html">立即注册</a></div>
+        	</div>
+        </div>
+    </section>
+
+<!--底部结构开始-->
+<footer>
+     <p>内蒙古师范大学计算机版权所有，有问题请联系我们</p>	
+</footer>
+<!--底部结构结束-->
+
+</body>
+</html>

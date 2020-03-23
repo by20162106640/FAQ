@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+li{ list-style:none;}
+/*头部开始*/
+header{
+	font-family: "华文行楷";
+	background:#a4d06f;
+	text-align:center;
+	border:3px solid #FFF;
+	}
+/* 头部结束 */	
+/* 侧栏开始 */	
+aside{
+	float:left;
+	background: #a4d06f no-repeat right;
+	height:1000px;
+	border:4px solid #FFF;
+	}
+h3{
+	background-color:#095;
+	line-height:45px;
+	font-size:23px;
+	color:#FFF;
+	padding:10px 40px;
+}
+aside ul{ margin-bottom:40px;
+          margin:10px 10px 10px 10px; }
+aside li{
+	line-height:45px;
+	border-bottom:#fff dotted 2px;
+	padding-left:42px;
+	background: url(../images/li-bg.png) no-repeat 20px;}
+aside li a{}
+aside li a:hover{}
+/* 侧栏结束 */	
+/* 主页开始 */
+main{
+	background: #a4d06f;
+	height:1000px;
+	border:2px solid #FFF;
+}
+.photo-list {
+    width:681px;  
+    height:106px;  
+    margin:50px auto; 
+    overflow:hidden;    
+    border:1px dashed #ccc;  
+}  
+.photo-list ul { list-style:none;}  
+.photo-list li { float:left; padding-right:9px;}  
+.photo-list img { border:1px solid #ddd; background:#fff; padding:2px;}
+/* 主页结束 */
+/*底部版权样式开始*/
+footer{ 
+	height:100px; border-top:#cccccc solid 1px;
+	background:-webkit-linear-gradient(#eee 0%,#f9f9f9 100%);
+	background:linear-gradient(#eee 0%,#f9f9f9 100%);
+	}
+footer p{
+	color:#666666;
+	text-align:center;
+	line-height:100px;
+	}
+/*底部版权样式结束*/
+	
+

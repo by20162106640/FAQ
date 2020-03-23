@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+/*添加问题样式开始*/
+.add{ 
+	width:500px;
+	height:100px;
+	float:left;
+	}
+.tian{
+	margin:10px 0;
+	}
+.tian label{
+	width:150px;
+	display:inline-block;
+	text-align:left;
+	}
+.tian input{
+	width:800px;
+	height:100px;
+	margin:24px 0 0 28px;
+	}
+.add button{
+	width:200px;
+	height:40px;
+	background:#0066FF;
+	border:0;
+	border-radius:20px;
+	color:#fff;
+	cursor:pointer;
+	margin:100px 0 0 338px;
+	}
+/*添加问题样式结束*/
+/*删除问题样式开始*/
+.delete{ 
+	width:500px;
+	height:100px;
+	float:left;
+	}
+.shan{
+	margin:10px 0;
+	}
+.shan label{
+	width:150px;
+	display:inline-block;
+	text-align:left;
+	}
+.shan input{
+	width:800px;
+	height:100px;
+	margin:24px 0 0 28px;
+	}
+.delete button{
+	width:200px;
+	height:40px;
+	background:#0066FF;
+	border:0;
+	border-radius:20px;
+	color:#fff;
+	cursor:pointer;
+	margin:100px 0 0 338px;
+	}
+/*删除问题样式结束*/
+/*修改问题样式开始*/
+.revise{ 
+	width:500px;
+	height:100px;
+	float:left;
+	}
+.gai{
+	margin:10px 0;
+	}
+.gai label{
+	width:150px;
+	display:inline-block;
+	text-align:left;
+	}
+.gai input{
+	width:800px;
+	height:100px;
+	margin:24px 0 0 28px;
+	}
+.revise button{
+	width:200px;
+	height:40px;
+	background:#0066FF;
+	border:0;
+	border-radius:20px;
+	color:#fff;
+	cursor:pointer;
+	margin:20px 20px;
+	}
+/*修改问题样式结束*/
+/*解决问题样式开始*/
+.solve{ 
+	width:500px;
+	height:100px;
+	float:left;
+	}
+.jie{
+	margin:10px 0;
+	}
+.jie label{
+	width:150px;
+	display:inline-block;
+	text-align:left;
+	}
+.jie input{
+	width:800px;
+	height:100px;
+	margin:24px 0 0 28px;
+	}
+.solve button{
+	width:200px;
+	height:40px;
+	background:#0066FF;
+	border:0;
+	border-radius:20px;
+	color:#fff;
+	cursor:pointer;
+	margin:100px 0 0 338px;
+	}
+/*解决问题样式结束*/
