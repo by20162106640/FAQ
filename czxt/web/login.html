@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link rel="stylesheet" type="text/css" href="css/dl.css">
+</head>
+<body>
+<div id="login">
+	<h1>Login</h1>
+	<form method="get" action="register.html">
+		<input type="text" required="required" placeholder="用户名" name="username"></input>
+		<input type="password" required="required" placeholder="密码" name="password"></input>
+		<button class="bu" type="button"><a id="o" href="register.html">注册</a></button>
+		<br />
+		<select name="type" class="bu" >
+			<option value="1">学生用户</option>
+			<option value="2">教师用户</option>
+		</select>
+		<br />
+		<button class="but" type="submit" onclick="login();">登录</button>
+	</form>
+</div>
+</body>
+<script>
+    function login() {
+
+        //表单序列化技术：form表单中的数据序列化成字符串
+        $.post("/loginServlet",formData,function(result){
+
+            //解析响应数据
+            console.log(result);
+            if(result.flag){
+                //登录成功：跳转到首页
+                location.href = "/student index.html";
+            }else{
+                //登录失败：在登录页面回显错误信息
+                var errorMsg = result.errorMsg;
+                $("#errorMsg").html(errorMsg);
+            }
+</script>
+</html>

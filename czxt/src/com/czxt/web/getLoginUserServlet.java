@@ -11,17 +11,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class getHeadUserServlet {
-    @WebServlet("/getHeadUserServlet")
-    public class GetHeadUserServlet extends HttpServlet {
+public class getLoginUserServlet {
+    @WebServlet("/getLoginUserServlet")
+    public class GetLoginUserServlet extends HttpServlet {
 
-        /**
-         * 获取登录用户数据
-         * @param request
-         * @param response
-         * @throws ServletException
-         * @throws IOException
-         */
         @Override
         protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 

@@ -5,7 +5,6 @@
 <title>注册界面</title>
 <link rel="stylesheet" type="text/css" href="css/zc.css">
 </head>
-<h1>《操作系统》课程FAQ系统</h1>
 <body>
     	<div class="rg_layout">
     		<div class="rg_form clearfix">
@@ -90,16 +89,31 @@
     			</div>
     			<div class="rg_form_right">
     				<p>
-    					已有账号？
-    					<a href="head.html">立即登录</a>
+    					<a href="login.html">立即登录</a>
     				</p>
     			</div>
     		</div>
     	</div>
-<!--底部结构开始-->
-<footer>
-     <p>内蒙古师范大学计算机版权所有，有问题请联系我们</p>	
-</footer>
-<!--底部结构结束-->
+		<script>
+
+            //点击注册按钮后提交数据
+            function regist() {
+                //获取表单数据
+                var formData = $("#registerForm").serialize();
+                //提交注册表单中填写的数据
+                $.post("/register",formData,function(result){
+                    //处理响应数据
+                    console.log(result);
+                    if(result.flag==true){
+                        //注册成功：跳转到登录页面
+                        location.href = "/login.html"
+                    }else{
+                        //注册失败：在注册页面，显示错误信息
+                        var errorMsg = result.errorMsg;
+                        $("#msg").html(errorMsg);
+                    }
+                },"json");
+            }
+		</script>
 </body>
 </html>

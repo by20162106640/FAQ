@@ -1,138 +1,135 @@
 @charset "utf-8";
 /* CSS Document */
-html{
-    width: 100%;
-    height: 100%;
+h1{ 
+	font-family: "华文行楷";
+	font-size:42px;
+	background:#67b1f0;
+	text-align:center;
+	border:1.45px solid #FFF;
+	margin:-9px -1px;
+	}
+.login_wrap {
+    width:100%;
+    min-width: 1300px;
     overflow: hidden;
-    font-style: sans-serif;
-}
-body{
-    width: 100%;
-    height: 100%;
-    font-family: 'Open Sans',sans-serif;
-    margin: 0;
-    background-color: #149829;
-}
-#login{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    margin: -150px 0 0 -150px;
-    width: 300px;
-    height: 300px;
-
-}
-#login h1{
-    color: #fff;
-    text-shadow:0 0 10px;
-    letter-spacing: 1px;
-    text-align: center;
-}
-h1{
-    font-size: 3.5em;
-    margin: 0.4em 0;
-    transition: 3s;
-    font-family:Times New Roman;
-}
-input{
-    width: 278px;
-    height: 18px;
-    margin-bottom: 10px;
-    outline: none;
-    padding: 10px;
-    font-size: 13px;
-    color: #fff;
-    text-shadow:1px 1px 1px;
-    border-top: 1px solid #312E3D;
-    border-left: 1px solid #312E3D;
-    border-right: 1px solid #312E3D;
-    border-bottom: 1px solid #56536A;
-    border-radius: 4px;
-    background-color: #2D2D3F;
-}
-#o{
-    text-decoration:none ;
-    out-line: nonecolor: #*****;
-    color: azure;
-}
-
-.but{
-    width: 300px;
-    min-height: 20px;
-    display: block;
-    background-color: #4a77d4;
-    border: 1px solid #3762bc;
-    color: #fff;
-    padding: 9px 14px;
-    font-size: 15px;
-    line-height: normal;
-    border-radius: 5px;
-    margin: 0;
-    transition: 1.5s;
-
-}
-.bu{
-    width: 300px;
-    min-height: 20px;
-    display: block;
-    background-color: #424242;
-    border: 1px solid #3762bc;
-    color: #fff;
-    padding: 9px 14px;
-    font-size: 15px;
-    line-height: normal;
-    border-radius: 5px;
-    margin: 0;
-    transition: 1s;
-    background-color:#008080;
-
-}
-.bu :hover{
-    border-radius: 42%;
-    color: white;
-    background-color:#AABBCC;
-    transition: 1s;
-}
-.but :hover{
-    border-radius: 12%;
-    color: white;
-    background-color:#F5DEB3;
-    transition: 1.5s;
-}
-
-.link {
-
-    outline: none;
-    text-decoration: none;
     position: relative;
-    font-size: 8em;
-    line-height: 1;
-    color: #9e9ba4;
-    display: inline-block;
+	float:left;
+	margin:12px 10px 1px 0px;
 }
-.but:link { color: #06F; text-decoration: none; }/* 未访问的链接 */
-.but:visited { color: #999; text-decoration: line-through; } /* 已访问的链接 */
-                                                            .but:hover { color: #F00; text-decoration: underline; }/* 鼠标移动到链接上 */
-.but:active { color: #F0F; } /* 选定的链接 */
-                            .b{
-                                width: 300px;
-                                min-height: 20px;
-                                display: block;
-                                background-color: #424242;
-                                border: 1px solid #3762bc;
-                                color: #fff;
-                                padding: 9px 14px;
-                                font-size: 15px;
-                                line-height: normal;
-                                border-radius: 5px;
-                                margin: 0;
-                                transition: 1s;
-                                background-color:#008080;
 
-                            }
-.b :hover{
-    border-radius: 42%;
-    color: white;
-    background-color:#F5DEB3;
-    transition: 1s;
+.login-box {
+    width: 360px;
+    height: 450px;
+    position: absolute;
+    top: 50px;
+    right:170px;
+    background: #fff;
+	margin:12px 341px 1px 0px;
 }
+.title {
+    height: 80px;
+    line-height: 80px;
+    background: #ffc900;
+    font-size: 22px;
+    padding:0 80px; 
+}
+.login_inner {    
+    overflow: hidden;
+    padding: 10px 50px;    
+}
+.alert {
+    margin: 0 auto;
+    padding: 6px 10px;
+    border: 1px solid transparent;   
+    text-align: left;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    margin-bottom: 17px;
+    font-size: 12px;
+}
+.login_inner form{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.login_inner input {
+    display: inline-block;
+    width: 246px;
+    height: 26px;
+    border: 1px solid #d8d8d8;   
+    font-size: 14px;
+    color: #666;
+    line-height: 28px;
+    padding: 6px 0 6px 12px;
+    box-shadow: 0 0 5px #fff;
+    outline: none;
+    transition: box-shadow 0.25s linear 0s;
+    -webkit-transition: box-shadow 0.25s linear 0s;
+    margin-bottom: 17px;
+}
+.verify input {
+    width: 95px;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 0;
+}
+
+.submit_btn button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #ffa800;   
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    float: left;
+}
+
+
+.submit_btn input[type="submit"]{
+    height: 45px;
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    background-color: #FFA800;
+    font-weight: bold;
+}
+
+.auto_login {
+   margin-top: 25px;
+}
+.submit_btn .checkbox {
+    float: left;
+    width: 17px;
+    margin: 7px 5px 0 54px;
+}
+
+.reg {
+    border-top: 1px solid #eeeeee;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #f1f1f1;
+    text-align: center;
+    font-size: 16px;
+}
+.reg a {
+    color: #fc7f7f;
+}
+footer{ 
+	height:100px; border-top:#cccccc solid 1px;
+	background:-webkit-linear-gradient(#eee 0%,#f9f9f9 100%);
+	background:linear-gradient(#eee 0%,#f9f9f9 100%);
+	}
+footer p{
+	color:#666666;
+	text-align:center;
+	line-height:100px;
+	}

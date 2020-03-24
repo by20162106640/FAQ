@@ -37,15 +37,4 @@
         <p>内蒙古师范大学</p>
     </div>
 </body>
-<script>
-    function login() {
-
-        //表单序列化技术：form表单中的数据序列化成字符串
-        var formData = $("#loginForm").serialize();
-
-        //提交数据:
-        $.post("/gly",formData,function(){
-        },"json");
-    }
-</script>
 </html>

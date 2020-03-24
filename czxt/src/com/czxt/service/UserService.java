@@ -26,7 +26,7 @@ public class UserService {
      * @param user
      * @return
      */
-    public String zc(User user) {
+    public String register(User user) {
         //0：添加了0条数据--添加失败    1：添加成功
         int addFlag =  UserDao.addUser(user);
 

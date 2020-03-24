@@ -14,8 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Map;
 
-@WebServlet("/zcServelet")
-public class zcServelet extends HttpServlet{
+
+@WebServlet("/register")
+public class register extends HttpServlet{
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -23,13 +25,13 @@ public class zcServelet extends HttpServlet{
         Map<String, String[]> map = request.getParameterMap();
         //封装数据
         User user = new User();
-        String zcJson;
+        String registerJson;
         try {
             BeanUtils.populate(user,map);
             //2、处理数据：注册
             UserService userService = new UserService ();
 
-            zcJson = userService.zc(user);
+            registerJson = userService.register(user);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -37,10 +39,9 @@ public class zcServelet extends HttpServlet{
             ResultInfo resultInfo = new ResultInfo();
             resultInfo.setFlag(false);
             resultInfo.setErrorMsg("数据异常，请联系管理员！");
-            zcJson = JSON.toJSONString(resultInfo);
+            registerJson = JSON.toJSONString(resultInfo);
         }
         //3、响应数据
-        response.getWriter().print(zcJson);
+        response.getWriter().print(registerJson);
     }
 }
-
