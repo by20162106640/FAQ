@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+/*头部开始*/
+header{
+	font-family: "华文行楷";
+	background:#a4d06f;
+	text-align:center;
+	border:3px solid #FFF;
+	}
+/* 头部结束 */	
+/* 侧栏开始 */	
+aside{
+	float:left;
+	background: #a4d06f no-repeat right;
+	height:1000px;
+	border:4px solid #FFF;
+	}
+h3{
+	background-color:#095;
+	line-height:45px;
+	font-size:23px;
+	color:#FFF;
+	padding:10px 40px;
+}
+aside ul{ margin-bottom:40px;
+          margin:10px 10px 10px 10px; }
+aside li{
+	line-height:45px;
+	border-bottom:#fff dotted 2px;
+	padding-left:42px;
+	background: url(../images/li-bg.png) no-repeat 20px;}
+aside li a{}
+aside li a:hover{}
+button{
+	position:relative;
+	margin:27px 27px;
+	padding:10px 15px;
+	text-align:center;
+	display:inline-block;
+	
+}
+/* 侧栏结束 */	
+/* 主页开始 */
+main{
+	background: #a4d06f;
+	height:1000px;
+	border:2px solid #FFF;
+}
+h4{
+	background-color:#095;
+	line-height:30px;
+	font-size:23px;
+	color:#FFF;	
+	}
+.search{
+	height:80px;
+	position:relative;
+	top:-8px;
+	border-radius:50px;
+	padding-top:20px;
+	
+	}
+.search form{
+	width:735px;
+	height:48px;
+	background:#FFF;
+	margin:0 auto;
+	border:#ac9b6f solid 5px;
+	border-radius:29px;
+	}
+.search form input{
+	width:560px;
+	height:30px;
+	float:left;
+	margin:9px 0 0 20px;
+	border:0;
+	outline:none;
+	font-size:18px;
+	}
+.search form button{
+	width:135px;
+	height:35px;
+	background:#a4d06f;
+	border:0;
+	border-radius:18px;
+	color:#fff;
+	font-size:16px;
+	float:right;
+	margin:7px 7px 0 0;
+	}  
+main ul{ width:800px;
+	     height:550px;
+	     background:rgba(255,255,255,0.6);
+	     position:absolute;
+	     top:200px;
+	     display:block;
+	     margin-left:197px;
+		}
+main li{ 
+    line-height:40px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	}
+main li a{
+	font-size:16px;
+	color:#000; }
+main li a:hover{
+	color:#F00;
+	}
+main span li{
+	float:left;
+	}	
+.pager{
+	padding:5px;
+	width:40px;
+	height:40px;
+	font-family:"华文行楷";
+	}
+.pager li{
+	width:100px;
+	height:40px;
+	background: rgba(255,255,255,0.6);
+	line-height:40px;
+	text-align:center;
+	margin:0px 10px 10px 10px;
+		}
+.pager li a:hover{
+	}
+.pager li:hover{
+	background:#09f;
+	}
+img{ 
+     float:right;
+     width:348px; 
+	 height:551px;
+	 margin:28px 0px;}
+/* 主页结束 */
+/*底部版权样式开始*/
+footer{ 
+	height:100px; border-top:#cccccc solid 1px;
+	background:-webkit-linear-gradient(#eee 0%,#f9f9f9 100%);
+	background:linear-gradient(#eee 0%,#f9f9f9 100%);
+	}
+footer p{
+	color:#666666;
+	text-align:center;
+	line-height:100px;
+	}
+/*底部版权样式结束*/
+	
