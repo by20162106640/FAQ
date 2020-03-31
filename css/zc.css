@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+h1{ 
+	font-family: "华文行楷";
+	font-size:42px;
+	background:#67b1f0;
+	text-align:center;
+	border:1.45px solid #FFF;
+	margin:-9px -1px;
+	}
+.rg_layout{
+	width: 100%;
+	height: 585px;
+	background: url(../images/a1.jpg) no-repeat center;
+	background-size: 100% 780px;
+	overflow: hidden;
+}
+.rg_layout .rg_form{
+	width: 400px;
+    height: 550px;
+    position: absolute;
+    top: 30px;
+    right:160px;
+    background: #fff;
+	margin:12px 341px 1px 0px;
+}
+.rg_layout .rg_form > .rg_form_left{
+	height: 80px;
+    line-height: 60px;
+    background: #ffc900;
+    font-size: 22px;
+    padding:0 80px; 
+}
+.rg_layout .rg_form > .rg_form_left span{
+	 padding:0 50px;}
+.rg_layout .rg_form_center{
+	width:358px;
+	float: left;
+	padding-top:10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.rg_layout .rg_form > .rg_form_right{
+	width:150px;
+	
+}
+.rg_layout .rg_form > .rg_form_right p{
+	margin:-9px -50px;}
+
+.rg_form > .rg_form_left > p:first-child{
+	font-size: 20px;
+	color:#ffcd26;
+	
+	
+}
+.rg_form > .rg_form_left > p:last-child{
+	font-size: 20px;
+	color: #a6a6a6;
+}
+.rg_form > .rg_form_center .td_left{
+	width: 65px;
+	text-align: right;
+}
+.rg_form > .rg_form_center table{
+	vertical-align: top;
+}
+.rg_form > .rg_form_center table tr{
+	height: 50px;
+}
+.rg_form > .rg_form_center .td_right{
+	width: 293px;
+}
+.rg_form_center .td_right > input[type="text"],.rg_form_center .td_right > input[type="password"],.rg_form_center .td_right > input[type="date"]{
+	width: 256px;
+	height: 32px;
+	line-height: 32px;
+	box-sizing: border-box;
+	padding: 6px 12px;
+	border-radius: 4px;
+	border:1px solid #a6a6a6;
+	float: right;
+}
+.rg_form > .rg_form_center .td_right.gender{
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+.rg_form > .rg_form_center .td_right.check{
+	padding-left: 36px;
+	box-sizing: border-box;
+}
+.rg_form > .rg_form_center .td_right > .check{
+	width: 118px;
+	float: left;
+	margin-right:14px;
+}
+.rg_form > .rg_form_center .td_right > .submit{
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	background-color: #ffc900;
+	font-size: 14px;
+}
+
+.rg_form > .rg_form_center .td_right > .regSubmit{
+	width: 147px;
+	height: 36px;
+	line-height: 36px;
+	background-color: #ffc900;
+	padding-left: 118px;
+	font-size: 14px;
+    cursor: pointer;
+}
+.rg_form > .rg_form_right >p{
+	float: right;
+	font-size: 14px;
+	padding: 20px 12px 0 0;
+	box-sizing: border-box;
+}
+.rg_form > .rg_form_right >p >a{
+	color: #fc958b;
+}
+
+label.error{
+	margin-left: 40px;
+	color: red;
+    font-size: 10px;
+}
+label#check-error{
+    margin-left: 0;
+}
+footer{ 
+	height:100px; border-top:#cccccc solid 1px;
+	background:-webkit-linear-gradient(#eee 0%,#f9f9f9 100%);
+	background:linear-gradient(#eee 0%,#f9f9f9 100%);
+	}
+footer p{
+	color:#666666;
+	text-align:center;
+	line-height:100px;
+	}
